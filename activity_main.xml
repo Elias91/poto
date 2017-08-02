@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.moda.fashiontouch.MainActivity">
+
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="127dp"
+        android:layout_height="59dp"
+        android:layout_above="@+id/btnMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="65dp"
+        android:text="Perfil"
+        android:textColor="@android:color/background_light"
+        app:backgroundTint="@color/colorPrimary"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="142dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Menu"
+        android:textColor="@android:color/background_light"
+        app:backgroundTint="@color/colorPrimary"
+        tools:ignore="HardcodedText"
+
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="225dp" />
+</RelativeLayout>
